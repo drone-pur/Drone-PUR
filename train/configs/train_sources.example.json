@@ -1,0 +1,16 @@
+{
+  "OC": "annotations/OC/train.json",
+  "OR": "annotations/OR/train.json",
+  "MIG": "annotations/MIG/train.json",
+  "VG": "annotations/VG/train.json",
+  "PSJ": "annotations/PSJ/train.json",
+  "CJ": "annotations/CJ/train.json",
+  "SI": "annotations/SI/train.json",
+  "CR": "annotations/CR/train.json",
+  "MMR-OC": "annotations/MMR/train_oc.json",
+  "MMR-VG": "annotations/MMR/train_vg.json",
+  "MMR-R": "annotations/MMR/train_reasoning.json",
+  "MVR-VG": "annotations/MVR/train_vg.json",
+  "MVR-R": "annotations/MVR/train_reasoning.json",
+  "OD": "annotations/OD/train.json"
+}

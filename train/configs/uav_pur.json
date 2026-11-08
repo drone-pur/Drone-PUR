@@ -1,0 +1,92 @@
+{
+  "seed": 42,
+  "train_mergers": true,
+  "expected_deepstack_mergers": 3,
+  "merger_lr_ratio": 0.1,
+  "od_samples": 2500,
+  "num_queries": 128,
+  "head_width": 512,
+  "od_width": 256,
+  "od_layers": 2,
+  "head_lr": 0.0001,
+  "loss_weights": {
+    "box": 0.1,
+    "count": 0.01,
+    "od": 0.1
+  },
+  "stages": {
+    "s1": {
+      "epochs": 1,
+      "lr": 2e-05,
+      "save_steps": 1000,
+      "choice_rates": {
+        "oc": 0.5,
+        "mig": 1,
+        "or": 0.5
+      },
+      "open_rates": {
+        "oc": 0.5,
+        "mig": 0.5
+      },
+      "aux": true
+    },
+    "s2": {
+      "epochs": 1,
+      "lr": 2e-05,
+      "save_steps": 1000,
+      "choice_rates": {
+        "oc": 1,
+        "mig": 1,
+        "or": 0.5,
+        "vg": 1,
+        "psj": 1,
+        "cj": 0.5,
+        "si": 0.5,
+        "cr": 0.5,
+        "mmr_oc": 1,
+        "mmr_vg": 1,
+        "dmjr": 0.5,
+        "mvr_vg": 1,
+        "mvr": 0.5
+      },
+      "open_rates": {
+        "oc": 0.5,
+        "mig": 0.5,
+        "vg": 0.5,
+        "mmr_oc": 1,
+        "mmr_vg": 1,
+        "mvr_vg": 1
+      },
+      "aux": true
+    },
+    "s3": {
+      "epochs": 1,
+      "lr": 1e-05,
+      "save_steps": 500,
+      "choice_rates": {
+        "oc": 1,
+        "mig": 1,
+        "or": 1,
+        "vg": 1,
+        "psj": 1,
+        "cj": 1,
+        "si": 1,
+        "cr": 1,
+        "mmr_oc": 1,
+        "mmr_vg": 1,
+        "dmjr": 1,
+        "mvr_vg": 1,
+        "mvr": 1
+      },
+      "open_rates": {
+        "vg": 0.25,
+        "oc": 0.25,
+        "mig": 0.25,
+        "mmr_oc": 0.25,
+        "mmr_vg": 0.25,
+        "mvr_vg": 0.25
+      },
+      "aux": false
+    }
+  }
+}

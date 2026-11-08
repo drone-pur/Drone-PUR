@@ -1,0 +1,23 @@
+torch==2.4.1
+torchvision==0.19.1
+transformers==4.57.0
+peft==0.19.1
+accelerate==1.13.0
+safetensors==0.5.3
+numpy==1.26.2
+scipy==1.15.3
+Pillow==10.4.0
+requests==2.32.3
+huggingface-hub==0.36.2
+qwen-vl-utils==0.0.14
+einops==0.8.1
+timm==1.0.22
+sentencepiece==0.2.1
+protobuf>=4.25
+
+# Optional pytest runner; the regression suite also runs with standard unittest.
+packaging>=24.2
+pytest>=8,<9
+
+# Qwen3.5 needs a separate compatible Transformers environment; see test/README.md.
+# FlashAttention is optional; the default attention implementation is SDPA.

@@ -1,0 +1,886 @@
+[
+  {
+    "task": "OC",
+    "mode": "choice",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "07ca31595aaa65fcf41cd2a6a9192376eb706563e9116e2f110cb4666a8535b0"
+  },
+  {
+    "task": "OR",
+    "mode": "choice",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "28db7dfb7b4e74917d0925c7552d01e5126a4d86f0894a0eef19bebc1486946c"
+  },
+  {
+    "task": "MIG",
+    "mode": "choice",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "05ea15868960db34d0dc099caa187d98dd056298d026bd6cc3b291710ebece94"
+  },
+  {
+    "task": "CJ",
+    "mode": "choice",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "correct_answer": "Yes",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "f17c028e7980d7106eee0f1461c8002b8da6983a162056a02a0404984a9105f8"
+  },
+  {
+    "task": "VG",
+    "mode": "choice",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "97a506ecaf8c88680a13101dad0206480b0b60f2cdd7592e596a99c9a40161ec"
+  },
+  {
+    "task": "PSJ",
+    "mode": "choice",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "bcfebb69e8e6de838803bb36a54c292a32a2ed98e6e2eda38c3a7e03add2e2d9"
+  },
+  {
+    "task": "SI",
+    "mode": "choice",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "9c73108fc3214cd11b03ea0221080e860958c78fbebc240c914d19a37327ec0a"
+  },
+  {
+    "task": "CR",
+    "mode": "choice",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "9c73108fc3214cd11b03ea0221080e860958c78fbebc240c914d19a37327ec0a"
+  },
+  {
+    "task": "MMR-OC",
+    "mode": "choice",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "3643f5dc0f7ae5de36c7474c47a9c68b92aeb66a2f0f04e4d3fb84362a63a712"
+  },
+  {
+    "task": "MMR-VG",
+    "mode": "choice",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "3429829b15976aefa8fe4a8f246a893ad2208b9de41ab903a0e89274bab71700"
+  },
+  {
+    "task": "MMR-R",
+    "mode": "choice",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "38635462997a99e86b06562be395f6046d008613306b939399220aef81444082"
+  },
+  {
+    "task": "MVR-VG",
+    "mode": "choice",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "4a5e4042f2f0f1e132e692727c4b00e131cac3dc3d5f2df686fbb794fbc9e263"
+  },
+  {
+    "task": "MVR-R",
+    "mode": "choice",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "3cbcc8cb46e7292cc329998184f2469d10bddcdc0dd9fd90c51d4b3579d8615c"
+  },
+  {
+    "task": "OD",
+    "mode": "open",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "c6e88d81d1bfb3102c8581927bb7149268853b471b33c537adb09b4952512822"
+  },
+  {
+    "task": "OC",
+    "mode": "open",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "bfc2d147f4bdd4c3d8a4fe3a83231e1478caf140b58f4b702eeac3bbebebef89"
+  },
+  {
+    "task": "MIG",
+    "mode": "open",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "47aeabdf1f677be4fc6c04b938e7fed45e0eb6c85bdc52aafe1f485eda9f5937"
+  },
+  {
+    "task": "VG",
+    "mode": "open",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "68692278a49769de2734f5d65575812647b5baf9828a21d1230bf61bff107390"
+  },
+  {
+    "task": "MMR-OC",
+    "mode": "open",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "1fb7cd0ce5473c15ac97ede7daf1fdd06d580e21165c5d11926bc1128345b054"
+  },
+  {
+    "task": "MMR-VG",
+    "mode": "open",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "e26c1dadb5a074f2711ad232ca46a637d87737718faf68071b0356dba83d3342"
+  },
+  {
+    "task": "MVR-VG",
+    "mode": "open",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "bee34827097a9b41d5b197b3c092e84ce46a01dec146dccd9169b455c5c49688"
+  },
+  {
+    "task": "OC",
+    "mode": "training",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "07ca31595aaa65fcf41cd2a6a9192376eb706563e9116e2f110cb4666a8535b0"
+  },
+  {
+    "task": "MIG",
+    "mode": "training",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "517adb299ccdd9413299aa1b31fc9e0c45d08679eb32c21a9a6ba88906abd96b"
+  },
+  {
+    "task": "OR",
+    "mode": "training",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "28db7dfb7b4e74917d0925c7552d01e5126a4d86f0894a0eef19bebc1486946c"
+  },
+  {
+    "task": "VG",
+    "mode": "training",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "3c4d00c6f2ae3215d7173fc56b538cbbbaa45ab9542d2d7f135fca093183e3f9"
+  },
+  {
+    "task": "PSJ",
+    "mode": "training",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "bcfebb69e8e6de838803bb36a54c292a32a2ed98e6e2eda38c3a7e03add2e2d9"
+  },
+  {
+    "task": "CJ",
+    "mode": "training",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "Yes",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "f17c028e7980d7106eee0f1461c8002b8da6983a162056a02a0404984a9105f8"
+  },
+  {
+    "task": "SI",
+    "mode": "training",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "9c73108fc3214cd11b03ea0221080e860958c78fbebc240c914d19a37327ec0a"
+  },
+  {
+    "task": "CR",
+    "mode": "training",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "9c73108fc3214cd11b03ea0221080e860958c78fbebc240c914d19a37327ec0a"
+  },
+  {
+    "task": "MMR-OC",
+    "mode": "training",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "3643f5dc0f7ae5de36c7474c47a9c68b92aeb66a2f0f04e4d3fb84362a63a712"
+  },
+  {
+    "task": "MMR-VG",
+    "mode": "training",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "3429829b15976aefa8fe4a8f246a893ad2208b9de41ab903a0e89274bab71700"
+  },
+  {
+    "task": "MMR-R",
+    "mode": "training",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "38635462997a99e86b06562be395f6046d008613306b939399220aef81444082"
+  },
+  {
+    "task": "MVR-VG",
+    "mode": "training",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "5043f3dca1fac75dd7288ae2bcdc5f97b23c5135e8be61b7af3c2c3550f8d36b"
+  },
+  {
+    "task": "MVR-R",
+    "mode": "training",
+    "sample": {
+      "question_id": "EXAMPLE",
+      "question": "Inspect the specified target in Image 3.",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "Five"
+      },
+      "correct_answer": "A",
+      "template": {
+        "box": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ]
+      },
+      "query_frame": 3,
+      "sampled_question_type": "1. Vehicle Heading"
+    },
+    "sha256": "3cbcc8cb46e7292cc329998184f2469d10bddcdc0dd9fd90c51d4b3579d8615c"
+  }
+]

@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=77", "packaging>=24.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drone-pur"
+version = "0.1.0"
+description = "Drone-PUR evaluation and the final UAV-PUR staged fine-tuning recipe"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = ["Pillow>=9.1", "scipy>=1.10", "requests>=2.31", "numpy>=1.24"]
+
+[project.optional-dependencies]
+local = ["torch>=2.4", "transformers>=4.57,<6", "accelerate>=1.0", "peft>=0.17", "safetensors>=0.5", "qwen-vl-utils>=0.0.14"]
+train = ["torch>=2.4", "transformers>=4.57,<5", "accelerate>=1.0", "peft>=0.17", "safetensors>=0.5"]
+test = ["pytest>=8"]
+
+[project.scripts]
+drone-pur-eval = "drone_pur.evaluate:main"
+drone-pur-score = "drone_pur.metrics:main"
+drone-pur-templates = "drone_pur.templates:main"
+uav-pur-prepare = "drone_pur.training.prepare:main"
+uav-pur-train = "drone_pur.training.train_stage:main"
+
+[tool.setuptools]
+packages = ["drone_pur", "drone_pur.prompts", "drone_pur.training"]
+
+[tool.setuptools.package-dir]
+drone_pur = "test"
+"drone_pur.prompts" = "test/prompts"
+"drone_pur.training" = "train"
+
+[tool.setuptools.package-data]
+drone_pur = ["README.md"]
+"drone_pur.training" = ["configs/*.json", "*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["scripts/checks"]
+
