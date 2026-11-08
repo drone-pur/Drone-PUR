@@ -55,6 +55,9 @@ The package installs as `drone_pur`. Run the following examples from the reposit
 Use Python 3.10 or newer on Linux with a CUDA-compatible PyTorch installation for GPU workloads.
 
 ```bash
+git clone https://github.com/drone-pur/Drone-PUR.git
+cd Drone-PUR
+
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
