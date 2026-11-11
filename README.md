@@ -2,7 +2,7 @@
 
 **From Visual Clue Discovery to Understanding and Reasoning in UAV Scenes**
 
-[Paper](https://arxiv.org/abs/2610.40801) | [Project Page](https://drone-pur.github.io/) | [Benchmark](https://huggingface.co/datasets/Henard224/Drone-PUR-Benchmark) | [UAV-PUR-4B](https://huggingface.co/Henard224/UAV-PUR-4B) | [UAV-PUR-8B](https://huggingface.co/Henard224/UAV-PUR-8B)
+[Paper](https://arxiv.org/abs/2610.40801) | [Project Page](https://drone-pur.github.io/) | [Benchmark](https://huggingface.co/datasets/Henard224/Drone-PUR-Benchmark) | [Training source](https://huggingface.co/datasets/Henard224/Drone-PUR-Training-source) | [UAV-PUR-4B](https://huggingface.co/Henard224/UAV-PUR-4B) | [UAV-PUR-8B](https://huggingface.co/Henard224/UAV-PUR-8B)
 
 **Drone-PUR** is a UAV vision-language dataset and benchmark spanning **perception, understanding and reasoning**. Its 11 tasks cover single images, image sequences, paired RGB-TIR observations and multiple viewpoints. **UAV-PUR** provides Qwen3-VL-based 4B and 8B adaptation baselines using three-stage fine-tuning and auxiliary geometric and numerical supervision.
 
@@ -17,6 +17,7 @@ This repository provides the unified evaluator, task prompts, scoring and UAV-PU
 | Resource | Download | Use with this repository |
 | --- | --- | --- |
 | Evaluation benchmark | [Henard224/Drone-PUR-Benchmark](https://huggingface.co/datasets/Henard224/Drone-PUR-Benchmark) | Full test annotations, original images and template metadata for `test/` |
+| Training source | [Henard224/Drone-PUR-Training-source](https://huggingface.co/datasets/Henard224/Drone-PUR-Training-source) | Training resources for UAV-PUR fine-tuning |
 | UAV-PUR-4B | [Henard224/UAV-PUR-4B](https://huggingface.co/Henard224/UAV-PUR-4B) | Complete merged Qwen3-VL-4B model for choice and open-ended evaluation |
 | UAV-PUR-8B | [Henard224/UAV-PUR-8B](https://huggingface.co/Henard224/UAV-PUR-8B) | Complete merged Qwen3-VL-8B model using the same evaluator |
 
